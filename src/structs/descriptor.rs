@@ -7,6 +7,7 @@ use tracing::debug;
 
 use crate::structs::types::PrimitiveType;
 
+//§4.3-A. Interpretation of field descriptors
 pub mod notation {
     // i8
     pub const BYTE: char = 'B';
@@ -47,6 +48,8 @@ pub mod notation {
     pub const END_REFERENCE: char = ';';
 }
 
+//§4.3 Descriptors
+//TODO: make the methods on this struct more accurately follow the spec
 struct Parser<'a> {
     chars: Peekable<Chars<'a>>,
     raw: String,

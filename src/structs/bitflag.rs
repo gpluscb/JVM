@@ -30,6 +30,7 @@ macro_rules! impl_flags {
     };
 }
 
+//§4.1-B. Class access and property modifiers
 bitflags! {
     pub struct ClassFileAccessFlag: u16 {
          const PUBLIC = 0x0001;
@@ -44,6 +45,7 @@ bitflags! {
     }
 }
 
+//§4.6-A. Method access and property flags
 bitflags! {
     pub struct MethodAccessFlag: u16 {
          const PUBLIC = 0x0001;
@@ -61,6 +63,7 @@ bitflags! {
     }
 }
 
+//§4.5-A. Field access and property flags
 bitflags! {
     pub struct FieldAccessFlag: u16 {
          const PUBLIC = 0x0001;

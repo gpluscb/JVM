@@ -7,6 +7,10 @@ use enum_as_inner::EnumAsInner;
 use crate::classfile::parse_helper::SafeBuf;
 use crate::structs::loaded::constant_pool::{ConstantPool, Utf8Data};
 
+/*
+    §4.7 Attributes
+*/
+
 #[derive(Clone, Debug)]
 pub struct CodeData {
     pub name: Arc<Utf8Data>,

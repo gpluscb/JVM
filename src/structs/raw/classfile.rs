@@ -3,10 +3,12 @@ use crate::structs::raw::constant_pool::PoolEntry;
 use crate::structs::raw::field::FieldEntry;
 use crate::structs::raw::method::MethodEntry;
 
-pub const MAGIC: u32 = 0xCAFEBABE;
+//§4.1-A. class file format major versions
 pub const MAX_SUPPORTED_MAJOR: u16 = 61;
 pub const MAX_SUPPORTED_MINOR: u16 = 0;
 
+// §4.1 The ClassFile Structure
+pub const MAGIC: u32 = 0xCAFEBABE;
 pub struct RawClassFile {
     pub magic: u32,
 
