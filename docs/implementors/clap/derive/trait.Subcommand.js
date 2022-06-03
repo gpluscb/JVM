@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["jvm"] = [{"text":"impl <a class=\"trait\" href=\"clap/derive/trait.Subcommand.html\" title=\"trait clap::derive::Subcommand\">Subcommand</a> for <a class=\"enum\" href=\"jvm/interface/cli/enum.CliCommand.html\" title=\"enum jvm::interface::cli::CliCommand\">CliCommand</a>","synthetic":false,"types":["jvm::interface::cli::CliCommand"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

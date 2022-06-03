@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["jvm"] = [{"text":"impl <a class=\"trait\" href=\"tracing_subscriber/fmt/writer/trait.MakeWriter.html\" title=\"trait tracing_subscriber::fmt::writer::MakeWriter\">MakeWriter</a>&lt;'_&gt; for <a class=\"struct\" href=\"jvm/interface/tui/struct.LogWriter.html\" title=\"struct jvm::interface::tui::LogWriter\">LogWriter</a>","synthetic":false,"types":["jvm::interface::tui::LogWriter"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

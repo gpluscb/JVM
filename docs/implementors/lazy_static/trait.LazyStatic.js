@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["jvm"] = [{"text":"impl <a class=\"trait\" href=\"lazy_static/trait.LazyStatic.html\" title=\"trait lazy_static::LazyStatic\">LazyStatic</a> for <a class=\"struct\" href=\"jvm/stdlib/struct.VISITORS.html\" title=\"struct jvm::stdlib::VISITORS\">VISITORS</a>","synthetic":false,"types":["jvm::stdlib::VISITORS"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
